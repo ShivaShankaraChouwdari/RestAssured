@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33516" started-at="2019-08-19T09:53:12Z" finished-at="2019-08-19T09:53:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33516" started-at="2019-08-19T09:53:12Z" finished-at="2019-08-19T09:53:46Z">
+      <class name="com.qa.RestAPI.RestAssuredTest">
+        <test-method status="PASS" signature="testStatusCode()[pri:1, instance:com.qa.RestAPI.RestAssuredTest@3532ec19]" name="testStatusCode" duration-ms="15495" started-at="2019-08-19T09:53:13Z" finished-at="2019-08-19T09:53:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCode -->
+        <test-method status="PASS" signature="testLogging()[pri:2, instance:com.qa.RestAPI.RestAssuredTest@3532ec19]" name="testLogging" duration-ms="6295" started-at="2019-08-19T09:53:28Z" finished-at="2019-08-19T09:53:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogging -->
+        <test-method status="PASS" signature="testXMLCodeContainsString()[pri:3, instance:com.qa.RestAPI.RestAssuredTest@3532ec19]" name="testXMLCodeContainsString" duration-ms="2930" started-at="2019-08-19T09:53:34Z" finished-at="2019-08-19T09:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testXMLCodeContainsString -->
+        <test-method status="PASS" signature="testXMLCodeContainsText()[pri:4, instance:com.qa.RestAPI.RestAssuredTest@3532ec19]" name="testXMLCodeContainsText" duration-ms="7290" started-at="2019-08-19T09:53:37Z" finished-at="2019-08-19T09:53:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testXMLCodeContainsText -->
+        <test-method status="PASS" signature="testXMLCodeContainsAnyText()[pri:5, instance:com.qa.RestAPI.RestAssuredTest@3532ec19]" name="testXMLCodeContainsAnyText" duration-ms="1193" started-at="2019-08-19T09:53:45Z" finished-at="2019-08-19T09:53:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testXMLCodeContainsAnyText -->
+      </class> <!-- com.qa.RestAPI.RestAssuredTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

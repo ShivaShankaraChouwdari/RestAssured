@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.qa.RestAPI.RestAssuredTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.648 sec <<< FAILURE!
+testLogging(com.qa.RestAPI.RestAssuredTest)  Time elapsed: 0.886 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: io/restassured/mapper/factory/GsonObjectMapperFactory
+	at io.restassured.config.RestAssuredConfig.<init>(RestAssuredConfig.java:41)
+	at io.restassured.RestAssured.<clinit>(RestAssured.java:420)
+	at com.qa.RestAPI.RestAssuredTest.testLogging(RestAssuredTest.java:27)
+Caused by: java.lang.ClassNotFoundException: io.restassured.mapper.factory.GsonObjectMapperFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 37 more
+
+testStatusCode(com.qa.RestAPI.RestAssuredTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at com.qa.RestAPI.RestAssuredTest.testStatusCode(RestAssuredTest.java:16)
+
